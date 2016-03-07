@@ -13,6 +13,7 @@
 		BEC4F9311C8D3D890028EB36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC4F92F1C8D3D890028EB36 /* Main.storyboard */; };
 		BEC4F9331C8D3D890028EB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC4F9321C8D3D890028EB36 /* Assets.xcassets */; };
 		BEC4F9361C8D3D890028EB36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC4F9341C8D3D890028EB36 /* LaunchScreen.storyboard */; };
+		BEC4F9421C8D60080028EB36 /* WscViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC4F9411C8D60080028EB36 /* WscViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BEC4F9321C8D3D890028EB36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC4F9351C8D3D890028EB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEC4F9371C8D3D890028EB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC4F9401C8D60080028EB36 /* WscViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WscViewController.h; path = ../WscViewController.h; sourceTree = "<group>"; };
+		BEC4F9411C8D60080028EB36 /* WscViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WscViewController.m; path = ../WscViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		BEC4F9251C8D3D890028EB36 /* 原生播放器 */ = {
 			isa = PBXGroup;
 			children = (
+				BEC4F9401C8D60080028EB36 /* WscViewController.h */,
+				BEC4F9411C8D60080028EB36 /* WscViewController.m */,
 				BEC4F9291C8D3D890028EB36 /* AppDelegate.h */,
 				BEC4F92A1C8D3D890028EB36 /* AppDelegate.m */,
 				BEC4F92C1C8D3D890028EB36 /* ViewController.h */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC4F92E1C8D3D890028EB36 /* ViewController.m in Sources */,
+				BEC4F9421C8D60080028EB36 /* WscViewController.m in Sources */,
 				BEC4F92B1C8D3D890028EB36 /* AppDelegate.m in Sources */,
 				BEC4F9281C8D3D890028EB36 /* main.m in Sources */,
 			);
